@@ -2,6 +2,7 @@
 This assignment is developed in Javascript, Node.js , MongoDB and Express.js
 
 ## Installation
+Either send request to this deployed URL `https://innovate-blush.vercel.app` or setup in local environment
 1) You should have node installed on your device.
 2) Navigate to the folder and type "npm install" in the terminal of vs-code.
 3) Using "npm install" all the dependencies will be installed.
@@ -45,6 +46,9 @@ Multipart Form Data
   "password":"bean@123"
 }
 ```
+### GET View User
+- **Enpoint:** `http://localhost:5000/api/users/view/:userId`
+
 ### PUT Update User
 - **Endpoint:** `http://localhost:5000/api/users/update/:userId`
 - **Body (JSON):**
@@ -85,6 +89,7 @@ Note: Only admin will be able to create another admin, So first login with this 
 ```
 {
   {
+    "id" : "65901b39bbd0e28ac98ce490"
     "name" :"admin"
     "profileImage" : "https://buildwithinnovation.s3.ap-south-1.amazonaws.com/desktop-wallpa…"
     "email" : "admin@gmail.com"
@@ -93,6 +98,7 @@ Note: Only admin will be able to create another admin, So first login with this 
     "role": "Admin"
   },
   {
+    "id" : "659069eb73000231e3de10f4"
     "name" :"God"
     "profileImage" : "https://buildwithinnovation.s3.ap-south-1.amazonaws.com/desktop-wallpa…"
     "email" : "God@gmail.com"
@@ -101,6 +107,7 @@ Note: Only admin will be able to create another admin, So first login with this 
     "role": "Admin"
   },
   {
+    "id" : "65906a6173000231e3de10f8"
     "name" :"Piyush"
     "profileImage" : "https://buildwithinnovation.s3.ap-south-1.amazonaws.com/desktop-wallpa…"
     "email" : "Piyush@gmail.com"
@@ -109,6 +116,7 @@ Note: Only admin will be able to create another admin, So first login with this 
     "role": "User"
   },
   {
+    "id" : "65916074cf5dca7eaf3d3137"
     "name" :"Rajesh"
     "profileImage" : "https://buildwithinnovation.s3.ap-south-1.amazonaws.com/desktop-wallpa…"
     "email" : "Raju@gmail.com"
@@ -117,6 +125,7 @@ Note: Only admin will be able to create another admin, So first login with this 
     "role": "User"
   },
   {
+    "id" : "6591b45091d94c54c513506a"
     "name" :"Napolean"
     "profileImage" : "https://buildwithinnovation.s3.ap-south-1.amazonaws.com/desktop-wallpa…"
     "email" : "napolean@gmail.com"
